@@ -1,0 +1,332 @@
+[2025-12-11 22:27:44.177] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:27:44.256] [warn]  [Config] Failed to load configuration file from the filesystem. Using defaults.
+[2025-12-11 22:27:44.256] [info]  [Config] Migrating config items successfully.
+[2025-12-11 22:27:44.262] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:27:44.329] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:27:44.330] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:27:44.340] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:27:44.340] [error] [MainWindow] Error: ENOENT: no such file or directory, open '/home/Raddarin/.config/Mattermost/bounds-info.json'
+    at Object.readFileSync (node:fs:441:20)
+    at t.readFileSync (node:electron/js2c/node_init:2:11013)
+    at C.getSavedWindowState (/usr/lib/mattermost-desktop/app.asar/index.js:2:1562042)
+    at C.init (/usr/lib/mattermost-desktop/app.asar/index.js:2:1560349)
+    at C.show (/usr/lib/mattermost-desktop/app.asar/index.js:2:1561653)
+    at /usr/lib/mattermost-desktop/app.asar/index.js:2:191342
+    at async St (/usr/lib/mattermost-desktop/app.asar/index.js:2:190821)
+[2025-12-11 22:27:44.384] [info]  [ServerDropdownView] init
+[2025-12-11 22:27:44.402] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:27:44.413] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:27:44.414] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:27:44.430] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:27:44.434] [error] [App.Utils] clearAppCache { err: 'TypeError: Object has been destroyed' }
+[2025-12-11 22:27:44.640] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:27:44.765] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:29:17.269] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:29:21.147] [info]  [BaseWindow] window closed
+[2025-12-11 22:29:21.161] [error] [App.Initialize] TypeError: Object has been destroyed
+    at k (/usr/lib/mattermost-desktop/app.asar/index.js:2:496012)
+    at x.ct (/usr/lib/mattermost-desktop/app.asar/index.js:2:186024)
+    at x.emit (node:events:519:28)
+    at /usr/lib/mattermost-desktop/app.asar/index.js:2:1601782
+[2025-12-11 22:30:10.231] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:30:10.321] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:30:10.381] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:30:10.389] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:30:10.390] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:30:10.398] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:30:10.427] [info]  [ServerDropdownView] init
+[2025-12-11 22:30:10.444] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:30:10.457] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:30:10.458] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:30:10.682] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:30:10.829] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:30:12.113] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:30:14.312] [info]  [BaseWindow] window closed
+[2025-12-11 22:30:14.321] [error] [App.Initialize] TypeError: Object has been destroyed
+    at k (/usr/lib/mattermost-desktop/app.asar/index.js:2:496012)
+    at x.ct (/usr/lib/mattermost-desktop/app.asar/index.js:2:186024)
+    at x.emit (node:events:519:28)
+    at /usr/lib/mattermost-desktop/app.asar/index.js:2:1601782
+[2025-12-11 22:32:36.585] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:32:36.666] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:32:36.722] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:32:36.730] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:32:36.730] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:32:36.741] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:32:36.774] [info]  [ServerDropdownView] init
+[2025-12-11 22:32:36.790] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:32:36.802] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:32:36.802] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:32:37.055] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:32:37.200] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:32:48.466] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:32:48.557] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:32:48.613] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:32:48.625] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:32:48.625] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:32:48.636] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:32:48.671] [info]  [ServerDropdownView] init
+[2025-12-11 22:32:48.690] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:32:48.701] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:32:48.702] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:32:48.963] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:32:49.120] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:32:56.268] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:33:05.539] [info]  [BaseWindow] window closed
+[2025-12-11 22:33:05.549] [error] [App.Initialize] TypeError: Object has been destroyed
+    at k (/usr/lib/mattermost-desktop/app.asar/index.js:2:496012)
+    at x.ct (/usr/lib/mattermost-desktop/app.asar/index.js:2:186024)
+    at x.emit (node:events:519:28)
+    at /usr/lib/mattermost-desktop/app.asar/index.js:2:1601782
+[2025-12-11 22:33:07.538] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:33:07.624] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:33:07.678] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:33:07.687] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:33:07.687] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:33:07.695] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:33:07.726] [info]  [ServerDropdownView] init
+[2025-12-11 22:33:07.741] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:33:07.753] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:33:07.753] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:33:07.987] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:33:08.121] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:33:09.313] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:33:09.319] [info]  [BaseWindow] window closed
+[2025-12-11 22:34:26.452] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:34:26.538] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:34:26.600] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:34:26.609] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:34:26.610] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:34:26.617] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:34:26.649] [info]  [ServerDropdownView] init
+[2025-12-11 22:34:26.665] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:34:26.677] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:34:26.678] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:34:26.912] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:34:27.028] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:35:02.630] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:35:02.712] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:35:02.767] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:35:02.776] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:35:02.776] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:35:02.786] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:35:02.816] [info]  [ServerDropdownView] init
+[2025-12-11 22:35:02.833] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:35:02.843] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:35:02.844] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:35:03.091] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:35:03.247] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:35:10.170] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:35:10.178] [info]  [BaseWindow] window closed
+[2025-12-11 22:39:04.248] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:39:04.338] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:39:04.395] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:39:04.404] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:39:04.404] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:39:04.414] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:39:04.456] [info]  [ServerDropdownView] init
+[2025-12-11 22:39:04.476] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:39:04.487] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:39:04.488] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:39:04.728] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:39:04.848] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:39:10.968] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:39:10.977] [info]  [BaseWindow] window closed
+[2025-12-11 22:39:15.051] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:39:15.138] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:39:15.193] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:39:15.202] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:39:15.203] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:39:15.210] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:39:15.244] [info]  [ServerDropdownView] init
+[2025-12-11 22:39:15.262] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:39:15.273] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:39:15.274] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:39:15.527] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:39:15.664] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:39:16.642] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:39:16.651] [info]  [BaseWindow] window closed
+[2025-12-11 22:39:36.606] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:39:36.695] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:39:36.750] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:39:36.761] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:39:36.762] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:39:36.771] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:39:36.812] [info]  [ServerDropdownView] init
+[2025-12-11 22:39:36.828] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:39:36.839] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:39:36.839] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:39:37.096] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:39:37.242] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:40:44.606] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:40:44.619] [info]  [BaseWindow] window closed
+[2025-12-11 22:40:49.437] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:40:49.521] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:40:49.581] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:40:49.591] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:40:49.595] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:40:49.601] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:40:49.637] [info]  [ServerDropdownView] init
+[2025-12-11 22:40:49.654] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:40:49.666] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:40:49.666] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:40:49.910] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:40:50.063] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:42:24.885] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:42:24.893] [info]  [BaseWindow] window closed
+[2025-12-11 22:42:47.990] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:42:48.077] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:42:48.133] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:42:48.141] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:42:48.142] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:42:48.151] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:42:48.195] [info]  [ServerDropdownView] init
+[2025-12-11 22:42:48.215] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:42:48.228] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:42:48.228] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:42:48.457] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:42:48.628] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:43:03.007] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:43:03.016] [info]  [BaseWindow] window closed
+[2025-12-11 22:43:27.766] [error] Logger Log level set to: { level: 'info' }
+[2025-12-11 22:43:27.843] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-11 22:43:27.905] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-11 22:43:27.912] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-11 22:43:27.912] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-11 22:43:27.919] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-11 22:43:27.946] [info]  [ServerDropdownView] init
+[2025-12-11 22:43:27.962] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-11 22:43:27.973] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-11 22:43:27.974] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-11 22:43:28.201] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-11 22:43:28.358] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-11 22:43:32.725] [info]  [MainWindow] onClose { event: {} }
+[2025-12-11 22:43:32.732] [info]  [BaseWindow] window closed
+[2025-12-16 20:45:20.857] [error] Logger Log level set to: { level: 'info' }
+[2025-12-16 20:45:20.963] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-16 20:45:21.048] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-16 20:45:21.092] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-16 20:45:21.093] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-16 20:45:21.102] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-16 20:45:21.171] [info]  [ServerDropdownView] init
+[2025-12-16 20:45:21.184] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-16 20:45:21.196] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-16 20:45:21.197] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-16 20:45:21.491] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-16 20:45:21.643] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-16 20:45:27.938] [info]  [MainWindow] onClose { event: {} }
+[2025-12-16 20:45:27.948] [info]  [BaseWindow] window closed
+[2025-12-16 20:45:30.562] [error] Logger Log level set to: { level: 'info' }
+[2025-12-16 20:45:30.648] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-16 20:45:30.716] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-16 20:45:30.726] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-16 20:45:30.726] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-16 20:45:30.732] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-16 20:45:30.766] [info]  [ServerDropdownView] init
+[2025-12-16 20:45:30.783] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-16 20:45:30.796] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-16 20:45:30.796] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-16 20:45:31.038] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-16 20:45:31.198] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-16 20:45:31.926] [info]  [MainWindow] onClose { event: {} }
+[2025-12-16 20:45:31.931] [info]  [BaseWindow] window closed
+[2025-12-16 20:45:39.263] [error] Logger Log level set to: { level: 'info' }
+[2025-12-16 20:45:39.340] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-16 20:45:39.395] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-16 20:45:39.403] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-16 20:45:39.403] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-16 20:45:39.409] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-16 20:45:39.442] [info]  [ServerDropdownView] init
+[2025-12-16 20:45:39.457] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-16 20:45:39.467] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-16 20:45:39.468] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-16 20:45:39.702] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-16 20:45:39.822] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-16 20:45:41.049] [info]  [MainWindow] onClose { event: {} }
+[2025-12-16 20:45:41.056] [info]  [BaseWindow] window closed
+[2025-12-17 11:29:01.783] [error] Logger Log level set to: { level: 'info' }
+[2025-12-17 11:29:01.865] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-17 11:29:01.923] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-17 11:29:01.932] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-17 11:29:01.932] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-17 11:29:01.937] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-17 11:29:01.968] [info]  [ServerDropdownView] init
+[2025-12-17 11:29:01.983] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-17 11:29:01.993] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-17 11:29:01.993] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-17 11:29:02.194] [info]  [ModalView] [welcomeScreen] preloading with /usr/lib/mattermost-desktop/app.asar/internalAPI.js
+[2025-12-17 11:29:02.339] [error] [WebContentsEventM...] [renderer] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sidebarBg')
+[2025-12-17 11:29:20.960] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-17 11:30:36.549] [info]  [MainWindow] onClose { event: {} }
+[2025-12-17 11:30:36.556] [info]  [BaseWindow] window closed
+[2025-12-17 11:30:38.768] [error] Logger Log level set to: { level: 'info' }
+[2025-12-17 11:30:38.849] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-17 11:30:38.909] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-17 11:30:38.918] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-17 11:30:38.918] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-17 11:30:38.924] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-17 11:30:38.964] [info]  [ServerDropdownView] init
+[2025-12-17 11:30:38.999] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-17 11:30:39.007] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-17 11:30:39.008] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-17 15:37:28.090] [error] Logger Log level set to: { level: 'info' }
+[2025-12-17 15:37:28.167] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-17 15:37:28.231] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-17 15:37:28.239] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-17 15:37:28.239] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-17 15:37:28.247] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-17 15:37:28.276] [info]  [ServerDropdownView] init
+[2025-12-17 15:37:28.299] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-17 15:37:28.307] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-17 15:37:28.308] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-17 22:14:42.565] [info]  [MainWindow] onClose { event: {} }
+[2025-12-17 22:14:42.576] [info]  [BaseWindow] window closed
+[2025-12-23 23:43:48.453] [error] Logger Log level set to: { level: 'info' }
+[2025-12-23 23:43:48.541] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-23 23:43:48.624] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-23 23:43:48.668] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-23 23:43:48.669] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-23 23:43:48.681] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-23 23:43:48.747] [info]  [ServerDropdownView] init
+[2025-12-23 23:43:48.779] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-23 23:43:48.788] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-23 23:43:48.789] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-23 23:43:48.821] [error] [App.Utils] clearAppCache { err: 'TypeError: Object has been destroyed' }
+[2025-12-23 23:43:51.511] [info]  [MainWindow] onClose { event: {} }
+[2025-12-23 23:43:51.517] [info]  [BaseWindow] window closed
+[2025-12-23 23:56:08.096] [error] Logger Log level set to: { level: 'info' }
+[2025-12-23 23:56:08.187] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-23 23:56:08.272] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-23 23:56:08.317] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-23 23:56:08.317] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-23 23:56:08.326] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-23 23:56:08.388] [info]  [ServerDropdownView] init
+[2025-12-23 23:56:08.413] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-23 23:56:08.422] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-23 23:56:08.423] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-23 23:56:26.370] [info]  [MainWindow] onClose { event: {} }
+[2025-12-23 23:56:26.382] [info]  [BaseWindow] window closed
+[2025-12-23 23:59:12.853] [error] Logger Log level set to: { level: 'info' }
+[2025-12-23 23:59:12.932] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-23 23:59:12.999] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-23 23:59:13.007] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-23 23:59:13.008] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-23 23:59:13.017] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-23 23:59:13.052] [info]  [ServerDropdownView] init
+[2025-12-23 23:59:13.076] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-23 23:59:13.083] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-23 23:59:13.084] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-23 23:59:57.887] [info]  [MainWindow] onClose { event: {} }
+[2025-12-23 23:59:57.926] [info]  [BaseWindow] window closed
+[2025-12-28 01:09:03.379] [error] Logger Log level set to: { level: 'info' }
+[2025-12-28 01:09:03.471] [warn]  [App.Initialize] Current working directory is /home/Raddarin, changing into /usr/lib/electron38
+[2025-12-28 01:09:03.558] [info]  [App.Config] config.autostart has been configured: { autostart: true }
+[2025-12-28 01:09:03.602] [warn]  [SecureStorage] Secure storage is not available on this system. Secrets will be stored in plain text. Consider installing keyring services for better security.
+[2025-12-28 01:09:03.602] [info]  [SecureStorage] Secure storage initialized - encryption unavailable
+[2025-12-28 01:09:03.614] [info]  [SecureStorage] Initialized secure storage cache
+[2025-12-28 01:09:03.683] [info]  [ServerDropdownView] init
+[2025-12-28 01:09:03.710] [info]  [App.Initialize] Autoupgrade disabled: false
+[2025-12-28 01:09:03.720] [warn]  [i18nManager] Failed to set new language { locale: 'en-US' }
+[2025-12-28 01:09:03.720] [warn]  [i18nManager] Failed to set new language { locale: '' }
+[2025-12-28 01:09:07.491] [info]  [MainWindow] onClose { event: {} }
+[2025-12-28 01:09:07.499] [info]  [BaseWindow] window closed

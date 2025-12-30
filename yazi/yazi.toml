@@ -1,0 +1,7 @@
+[mgr]
+editor = ["nvim"]
+
+[[mgr.prepend_keymap]]
+on   = ["e"]
+run  = "edit"
+desc = "Edit with nvim"

@@ -1,0 +1,48 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-25-openjdk/bin/java -Djdk.xml.maxGeneralEntitySizeLimit=0 -Djdk.xml.totalEntitySizeLimit=0 --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/Raddarin/.vscode-oss/extensions/redhat.java-1.50.0-universal/lombok/lombok-1.18.39-4050.jar -jar /home/Raddarin/.vscode-oss/extensions/redhat.java-1.50.0-universal/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/Raddarin/.config/Code - OSS/User/globalStorage/redhat.java/1.50.0/config_ss_linux -data /home/Raddarin/.config/Code - OSS/User/workspaceStorage/5a0413fb773113cc40354f9151c1a64d/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-12-23 18:48:23.509'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-25-openjdk/bin/java -Djdk.xml.maxGeneralEntitySizeLimit=0 -Djdk.xml.totalEntitySizeLimit=0 --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/Raddarin/.vscode-oss/extensions/redhat.java-1.50.0-universal/lombok/lombok-1.18.39-4050.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/Raddarin/.config/Code - OSS/User/workspaceStorage/5a0413fb773113cc40354f9151c1a64d/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/Raddarin/.vscode-oss/extensions/redhat.java-1.50.0-universal/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/Raddarin/.config/Code - OSS/User/globalStorage/redhat.java/1.50.0/config_linux -data /home/Raddarin/.config/Code - OSS/User/workspaceStorage/5a0413fb773113cc40354f9151c1a64d/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-12-23 18:48:23.637'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2025-12-23 18:48:23.643'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2025-12-23 18:48:23.690'
+}
+{
+  message: 'Dec 23, 2025 6:48:24 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-12-23 18:48:24.805'
+}
+{
+  message: 'WARNING: A terminally deprecated method in sun.misc.Unsafe has been called\n' +
+    'WARNING: sun.misc.Unsafe::objectFieldOffset has been called by lombok.permit.Permit\n' +
+    'WARNING: Please consider reporting this to the maintainers of class lombok.permit.Permit\n' +
+    'WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release\n',
+  level: 'info',
+  timestamp: '2025-12-23 18:48:26.773'
+}
+{
+  message: 'WARNING: A terminally deprecated method in sun.misc.Unsafe has been called\n' +
+    'WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/home/Raddarin/.config/Code - OSS/User/globalStorage/redhat.java/1.50.0/config_linux/org.eclipse.osgi/68/0/.cp/jars/guice-5.1.0-classes.jar)\n' +
+    'WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner\n' +
+    'WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release\n',
+  level: 'info',
+  timestamp: '2025-12-23 18:48:27.491'
+}
+{
+  message: 'Dec 23, 2025 6:48:29 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2025-12-23 18:48:29.946'
+}

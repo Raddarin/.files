@@ -1,0 +1,7 @@
+[manager]
+editor = ["nvim"]
+
+[[manager.prepend_keymap]]
+on   = ["e"]
+run  = "edit"
+desc = "Edit with nvim"

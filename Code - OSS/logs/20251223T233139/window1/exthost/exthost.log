@@ -1,0 +1,12 @@
+2025-12-23 23:31:41.279 [info] Extension host with pid 1244 started
+2025-12-23 23:31:41.279 [info] Skipping acquiring lock for /home/Raddarin/.config/Code - OSS/User/workspaceStorage/edbff4cc5b5693c8487d5c4812544387.
+2025-12-23 23:31:41.300 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-23 23:31:41.323 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-23 23:31:41.358 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-23 23:31:41.389 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-23 23:31:41.431 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-23 23:31:41.534 [info] Eager extensions activated
+2025-12-23 23:31:41.577 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-23 23:31:41.579 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-23 23:31:56.888 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-23 23:31:56.900 [info] Extension host with pid 1244 exiting with code 0

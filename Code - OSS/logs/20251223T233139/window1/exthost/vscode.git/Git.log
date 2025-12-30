@@ -1,0 +1,76 @@
+2025-12-23 23:31:41.542 [info] [main] Log level: Info
+2025-12-23 23:31:41.542 [info] [main] Validating found git in: "git"
+2025-12-23 23:31:41.542 [info] [main] Using git "2.52.0" from "git"
+2025-12-23 23:31:41.542 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-23 23:31:41.542 [info] > git rev-parse --show-toplevel [9ms]
+2025-12-23 23:31:41.542 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-23 23:31:41.542 [info] > git rev-parse --show-toplevel [4ms]
+2025-12-23 23:31:41.542 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
+2025-12-23 23:31:41.542 [info] [Model][openRepository] Opened repository (path): /home/Raddarin/devR/Rust/hello-rust
+2025-12-23 23:31:41.542 [info] [Model][openRepository] Opened repository (real path): /home/Raddarin/devR/Rust/hello-rust
+2025-12-23 23:31:41.542 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-23 23:31:41.542 [info] > git rev-parse --show-toplevel [10ms]
+2025-12-23 23:31:41.542 [info] > git config --get commit.template [13ms]
+2025-12-23 23:31:41.542 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:31:41.543 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2025-12-23 23:31:41.549 [info] [Model][openRepository] Opened repository (path): /home/Raddarin/devR/Rust/light_in_atmo
+2025-12-23 23:31:41.549 [info] [Model][openRepository] Opened repository (real path): /home/Raddarin/devR/Rust/light_in_atmo
+2025-12-23 23:31:41.549 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-23 23:31:41.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-12-23 23:31:41.556 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:31:41.567 [info] > git status -z -uall [7ms]
+2025-12-23 23:31:41.567 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-12-23 23:31:41.576 [info] > git rev-parse --show-toplevel [21ms]
+2025-12-23 23:31:41.576 [info] > git config --get commit.template [24ms]
+2025-12-23 23:31:41.607 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [32ms]
+2025-12-23 23:31:41.607 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:31:41.607 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-12-23 23:31:41.614 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:31:41.615 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [9ms]
+2025-12-23 23:31:41.621 [info] [Model][openRepository] Opened repository (path): /home/Raddarin/devR/Rust/termo_test
+2025-12-23 23:31:41.621 [info] [Model][openRepository] Opened repository (real path): /home/Raddarin/devR/Rust/termo_test
+2025-12-23 23:31:41.621 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-23 23:31:41.621 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-23 23:31:41.622 [info] > git config --get commit.template [17ms]
+2025-12-23 23:31:41.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2025-12-23 23:31:41.643 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:31:41.654 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:31:41.655 [info] > git status -z -uall [10ms]
+2025-12-23 23:31:41.655 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-12-23 23:31:41.661 [info] > git rev-parse --show-toplevel [19ms]
+2025-12-23 23:31:41.661 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-23 23:31:41.662 [info] > git config --get commit.template [23ms]
+2025-12-23 23:31:41.667 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-12-23 23:31:41.667 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:31:41.668 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-12-23 23:31:41.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-12-23 23:31:41.668 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:31:41.673 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:31:41.676 [info] > git status -z -uall [6ms]
+2025-12-23 23:31:41.676 [info] > git config --get commit.template [9ms]
+2025-12-23 23:31:41.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-12-23 23:31:41.677 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:31:41.684 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-12-23 23:31:41.690 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:31:41.690 [info] > git status -z -uall [10ms]
+2025-12-23 23:31:41.690 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-23 23:31:41.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-12-23 23:31:41.702 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:31:41.702 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-12-23 23:31:41.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2025-12-23 23:31:41.702 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:31:41.708 [info] > git status -z -uall [4ms]
+2025-12-23 23:31:41.708 [info] > git config --get commit.template [7ms]
+2025-12-23 23:31:41.709 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-23 23:31:41.712 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:31:41.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-12-23 23:31:41.713 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:31:41.720 [info] > git status -z -uall [4ms]
+2025-12-23 23:31:41.720 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-23 23:31:41.733 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-23 23:31:41.733 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-23 23:31:42.180 [info] > git check-ignore -v -z --stdin [10ms]
+2025-12-23 23:31:42.181 [info] > git check-ignore -v -z --stdin [5ms]
+2025-12-23 23:31:42.181 [info] > git check-ignore -v -z --stdin [2ms]
+2025-12-23 23:31:43.141 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-23 23:31:43.141 [info] fatal: not a git repository (or any of the parent directories): .git

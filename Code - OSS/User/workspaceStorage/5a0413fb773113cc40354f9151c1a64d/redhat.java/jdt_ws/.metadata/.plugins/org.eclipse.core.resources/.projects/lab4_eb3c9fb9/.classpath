@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="_/src"/>
+	<classpathentry kind="lib" path="/home/Raddarin/devR/Java/Fordjupningskurs_Java/edaa01-workspace-vscode/lab4/lib/junit-platform-console-standalone-1.9.3.jar" sourcepath="/home/Raddarin/.m2/repository/org/junit/platform/junit-platform-console-standalone/1.9.3/junit-platform-console-standalone-1.9.3-sources.jar"/>
+	<classpathentry kind="output" path="_/bin"/>
+</classpath>

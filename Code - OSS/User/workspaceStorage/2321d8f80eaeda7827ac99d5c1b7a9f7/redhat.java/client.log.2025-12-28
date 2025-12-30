@@ -1,0 +1,54 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-25-openjdk/bin/java -Djdk.xml.maxGeneralEntitySizeLimit=0 -Djdk.xml.totalEntitySizeLimit=0 --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/Raddarin/.vscode-oss/extensions/redhat.java-1.50.0-universal/lombok/lombok-1.18.39-4050.jar -jar /home/Raddarin/.vscode-oss/extensions/redhat.java-1.50.0-universal/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/Raddarin/.config/Code - OSS/User/globalStorage/redhat.java/1.50.0/config_ss_linux -data /home/Raddarin/.config/Code - OSS/User/workspaceStorage/2321d8f80eaeda7827ac99d5c1b7a9f7/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-12-28 00:25:19.171'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-25-openjdk/bin/java -Djdk.xml.maxGeneralEntitySizeLimit=0 -Djdk.xml.totalEntitySizeLimit=0 --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/Raddarin/.vscode-oss/extensions/redhat.java-1.50.0-universal/lombok/lombok-1.18.39-4050.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/Raddarin/.config/Code - OSS/User/workspaceStorage/2321d8f80eaeda7827ac99d5c1b7a9f7/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/Raddarin/.vscode-oss/extensions/redhat.java-1.50.0-universal/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/Raddarin/.config/Code - OSS/User/globalStorage/redhat.java/1.50.0/config_linux -data /home/Raddarin/.config/Code - OSS/User/workspaceStorage/2321d8f80eaeda7827ac99d5c1b7a9f7/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-12-28 00:25:19.321'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2025-12-28 00:25:19.328'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2025-12-28 00:25:19.366'
+}
+{
+  message: 'Dec 28, 2025 12:25:20 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-12-28 00:25:20.180'
+}
+{
+  message: 'WARNING: A terminally deprecated method in sun.misc.Unsafe has been called\n' +
+    'WARNING: sun.misc.Unsafe::objectFieldOffset has been called by lombok.permit.Permit\n' +
+    'WARNING: Please consider reporting this to the maintainers of class lombok.permit.Permit\n' +
+    'WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release\n',
+  level: 'info',
+  timestamp: '2025-12-28 00:25:21.737'
+}
+{
+  message: '[Warn  - 12:25:22 AM] Dec 28, 2025, 12:25:20 AM The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.\n' +
+    'null',
+  level: 'info',
+  timestamp: '2025-12-28 00:25:22.193'
+}
+{
+  message: 'WARNING: A terminally deprecated method in sun.misc.Unsafe has been called\n' +
+    'WARNING: sun.misc.Unsafe::objectFieldOffset has been called by lombok.permit.Permit\n' +
+    'WARNING: Please consider reporting this to the maintainers of class lombok.permit.Permit\n' +
+    'WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release\n',
+  level: 'info',
+  timestamp: '2025-12-28 00:25:22.986'
+}
+{
+  message: 'Dec 28, 2025 12:25:24 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2025-12-28 00:25:24.920'
+}

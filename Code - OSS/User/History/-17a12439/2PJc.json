@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "editor.codeLens": true,
+    "java.test.editor.codeLens": true,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}

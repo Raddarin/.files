@@ -1,0 +1,119 @@
+2025-12-23 23:45:38.156 [info] [main] Log level: Info
+2025-12-23 23:45:38.156 [info] [main] Validating found git in: "git"
+2025-12-23 23:45:38.156 [info] [main] Using git "2.52.0" from "git"
+2025-12-23 23:45:38.156 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-23 23:45:38.156 [info] > git rev-parse --show-toplevel [5ms]
+2025-12-23 23:45:38.156 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-23 23:45:38.156 [info] > git rev-parse --show-toplevel [4ms]
+2025-12-23 23:45:38.156 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2025-12-23 23:45:38.156 [info] [Model][openRepository] Opened repository (path): /home/Raddarin/devR/Rust/hello-rust
+2025-12-23 23:45:38.156 [info] [Model][openRepository] Opened repository (real path): /home/Raddarin/devR/Rust/hello-rust
+2025-12-23 23:45:38.156 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-23 23:45:38.156 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-23 23:45:38.156 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-23 23:45:38.156 [info] > git config --get commit.template [4ms]
+2025-12-23 23:45:38.156 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:45:38.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-12-23 23:45:38.156 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:45:38.156 [info] > git rev-parse --show-toplevel [12ms]
+2025-12-23 23:45:38.156 [info] > git status -z -uall [11ms]
+2025-12-23 23:45:38.156 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-23 23:45:38.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2025-12-23 23:45:38.156 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:45:38.156 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-12-23 23:45:38.156 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [31ms]
+2025-12-23 23:45:38.156 [info] [Model][openRepository] Opened repository (path): /home/Raddarin/devR/Rust/light_in_atmo
+2025-12-23 23:45:38.156 [info] [Model][openRepository] Opened repository (real path): /home/Raddarin/devR/Rust/light_in_atmo
+2025-12-23 23:45:38.156 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-23 23:45:38.157 [info] > git rev-parse --show-toplevel [29ms]
+2025-12-23 23:45:38.157 [info] > git config --get commit.template [32ms]
+2025-12-23 23:45:38.157 [info] > git config --get commit.template [34ms]
+2025-12-23 23:45:38.176 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:45:38.178 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:45:38.179 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-12-23 23:45:38.179 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:45:38.185 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [11ms]
+2025-12-23 23:45:38.190 [info] [Model][openRepository] Opened repository (path): /home/Raddarin/devR/Rust/termo_test
+2025-12-23 23:45:38.190 [info] [Model][openRepository] Opened repository (real path): /home/Raddarin/devR/Rust/termo_test
+2025-12-23 23:45:38.190 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-23 23:45:38.190 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-23 23:45:38.195 [info] > git status -z -uall [12ms]
+2025-12-23 23:45:38.195 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-23 23:45:38.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2025-12-23 23:45:38.200 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:45:38.208 [info] > git status -z -uall [5ms]
+2025-12-23 23:45:38.208 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-23 23:45:38.217 [info] > git config --get commit.template [23ms]
+2025-12-23 23:45:38.223 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-12-23 23:45:38.223 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:45:38.224 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-12-23 23:45:38.229 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:45:38.229 [info] > git config --get commit.template [6ms]
+2025-12-23 23:45:38.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-12-23 23:45:38.234 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:45:38.242 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:45:38.243 [info] > git status -z -uall [5ms]
+2025-12-23 23:45:38.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-12-23 23:45:38.244 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:45:38.250 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-23 23:45:38.260 [info] > git status -z -uall [14ms]
+2025-12-23 23:45:38.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-12-23 23:45:38.261 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:45:38.261 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-12-23 23:45:38.261 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-12-23 23:45:38.263 [info] > git config --get commit.template [3ms]
+2025-12-23 23:45:38.267 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-23 23:45:38.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-12-23 23:45:38.269 [warning] [Git][getBranch] No such branch: master
+2025-12-23 23:45:38.275 [info] > git status -z -uall [4ms]
+2025-12-23 23:45:38.276 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-23 23:45:38.291 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-23 23:45:38.291 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-23 23:45:38.758 [info] > git check-ignore -v -z --stdin [18ms]
+2025-12-23 23:45:38.759 [info] > git check-ignore -v -z --stdin [12ms]
+2025-12-23 23:45:38.760 [info] > git check-ignore -v -z --stdin [9ms]
+2025-12-23 23:45:39.610 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-23 23:45:39.610 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-23 23:45:52.502 [info] [main] Log level: Info
+2025-12-23 23:45:52.502 [info] [main] Validating found git in: "git"
+2025-12-23 23:45:52.502 [info] [main] Using git "2.52.0" from "git"
+2025-12-23 23:45:52.502 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-23 23:45:52.502 [info] > git rev-parse --show-toplevel [4ms]
+2025-12-23 23:45:52.502 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [310ms]
+2025-12-23 23:45:52.502 [info] [Model][openRepository] Opened repository (path): /home/Raddarin/devR/Java/Fordjupningskurs_Java
+2025-12-23 23:45:52.502 [info] [Model][openRepository] Opened repository (real path): /home/Raddarin/devR/Java/Fordjupningskurs_Java
+2025-12-23 23:45:52.502 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-23 23:45:52.502 [info] > git rev-parse --show-toplevel [17ms]
+2025-12-23 23:45:52.502 [info] > git config --get commit.template [19ms]
+2025-12-23 23:45:52.534 [info] > git rev-parse --show-toplevel [34ms]
+2025-12-23 23:45:52.534 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2025-12-23 23:45:52.546 [info] > git rev-parse --show-toplevel [5ms]
+2025-12-23 23:45:52.562 [info] > git rev-parse --show-toplevel [10ms]
+2025-12-23 23:45:52.566 [info] > git status -z -uall [10ms]
+2025-12-23 23:45:52.566 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-23 23:45:52.568 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-23 23:45:52.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-12-23 23:45:52.589 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-12-23 23:45:52.592 [info] > git config --get commit.template [8ms]
+2025-12-23 23:45:52.592 [info] > git rev-parse --show-toplevel [11ms]
+2025-12-23 23:45:52.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2025-12-23 23:45:52.605 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-12-23 23:45:52.609 [info] > git rev-parse --show-toplevel [12ms]
+2025-12-23 23:45:52.621 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 63369f8c4fcc39542a8c55b3fc9fea9589232a0f...refs/remotes/origin/main -- [12ms]
+2025-12-23 23:45:52.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-12-23 23:45:52.623 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-23 23:45:52.623 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-23 23:45:52.636 [info] > git status -z -uall [8ms]
+2025-12-23 23:45:52.636 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-12-23 23:45:52.961 [info] > git check-ignore -v -z --stdin [2ms]
+2025-12-23 23:45:54.768 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-23 23:45:58.778 [info] > git config --get commit.template [4ms]
+2025-12-23 23:45:58.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-23 23:45:58.786 [info] > git status -z -uall [4ms]
+2025-12-23 23:45:58.786 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-23 23:45:59.958 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-23 23:46:00.971 [info] > git check-ignore -v -z --stdin [2ms]
+2025-12-23 23:46:01.715 [info] > git show --textconv :edaa01-workspace-vscode/project_suduko/src/main/java/suduko/App.java [5ms]
+2025-12-23 23:46:01.716 [info] > git ls-files --stage -- edaa01-workspace-vscode/project_suduko/src/main/java/suduko/App.java [1ms]
+2025-12-23 23:46:01.721 [info] > git cat-file -s e8e9406ae97990e0da437c1da6f4899b278cec1e [1ms]
+2025-12-23 23:46:01.918 [info] > git check-ignore -v -z --stdin [1ms]

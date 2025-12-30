@@ -1,0 +1,14 @@
+Application: Mattermost 6.0.1 [commit: 6.0.1
+]
+Platform: Linux 6.17.9-arch1-1 x64
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:298:16)
+    at console.info (node:internal/console/constructor:391:26)
+    at n.writeFn (/usr/lib/mattermost-desktop/app.asar/index.js:2:1550890)
