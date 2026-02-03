@@ -2,7 +2,7 @@
 
 !.gitignore
 
-!.hypr
-!.kitty
-!.nvim
-!.waybar
+!hypr
+!kitty
+!nvim
+!waybar

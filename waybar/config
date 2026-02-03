@@ -1,0 +1,75 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["pulseaudio", "network","custom/bluetooth", "battery","custom/ram", "cpu"],
+
+  "hyprland/workspaces": {
+  "all-outputs": true,
+  "sort-by-number": true,
+  "on-click": "activate",
+  "on-scroll-up": "hyprctl dispatch workspace e+1",
+  "on-scroll-down": "hyprctl dispatch workspace e-1"
+  },
+  "custom/ram": {
+    "format": "    {}",
+    "tooltip": false,
+    "interval": 5,
+    "on-click": "alacritty -e btop",
+    "exec": "free -h | awk '/Mem:/ {print $3 \"/\" $2}'"
+  },
+
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip-format": "{:%Y-%m-%d %H:%M}"
+  },
+
+  "pulseaudio": {
+    "format": "{volume}% ",
+    "format-muted": "Muted ",
+    "tooltip": false,
+    "scroll-step": 5
+  },
+
+  "network": {
+  // Vad som syns i baren:
+    "format-wifi": "",
+    "format-ethernet": "󰈀",
+    "format-disconnected": "󰖪",
+
+  // Tooltip när du hovrar:
+    "tooltip-format": "↓{bandwidthDownBytes} ↑ {bandwidthUpBytes}",
+
+  // Hur ofta det uppdateras:
+    "interval": 2,
+
+  // Klick: öppna NetworkManager GUI
+    "on-click": "alacritty -e bash -ic 'nmtui'"
+  },
+  
+   
+  
+  "custom/bluetooth": {
+    "exec": "~/.config/waybar/scripts/bluetooth_status.sh",
+    "return-type": "json",
+    "interval": 5,
+    "on-click": "blueman-manager",
+    "on-click-right": "rfkill toggle bluetooth",
+    "tooltip": true
+  },
+
+  
+  "battery": {
+    "format": "{capacity}% ",
+    "format-charging": "{capacity}% "
+  },
+  "cpu": {
+    "format": "   {usage}%",
+    "interval": 5
+  }
+ 
+	},
+ }
