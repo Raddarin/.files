@@ -1,7 +1,0 @@
-
-[Default Applications]
-application/x-maple-worksheet=/home/Raddarin/.local/share/applications/maple2025.desktop
-inode/directory=org.gnome.Nautilus.desktop
-application/x-gnome-saved-search=org.gnome.Nautilus.desktop
-text/plain=nvim.desktop
-application/pdf=org.pwmt.zathura.desktop

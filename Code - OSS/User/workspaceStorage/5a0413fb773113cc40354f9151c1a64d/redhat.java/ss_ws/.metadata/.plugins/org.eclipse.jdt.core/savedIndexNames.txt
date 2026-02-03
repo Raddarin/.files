@@ -1,1 +1,0 @@
-INDEX VERSION 1.134+/home/Raddarin/.config/Code - OSS/User/workspaceStorage/5a0413fb773113cc40354f9151c1a64d/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core
