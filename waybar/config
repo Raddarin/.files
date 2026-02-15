@@ -30,8 +30,10 @@
   "pulseaudio": {
     "format": "{volume}% ",
     "format-muted": "Muted ",
-    "tooltip": false,
-    "scroll-step": 5
+    "scroll-step": 5,
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "pavucontrol",
+    "tooltip": false
   },
 
   "network": {
