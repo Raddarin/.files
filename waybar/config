@@ -5,14 +5,14 @@
 
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["pulseaudio", "network","custom/bluetooth", "battery","custom/ram", "cpu"],
+  "modules-right": ["custom/spell-check", "pulseaudio", "network","custom/bluetooth", "battery","custom/ram", "cpu"],
 
   "hyprland/workspaces": {
-  "all-outputs": true,
-  "sort-by-number": true,
-  "on-click": "activate",
-  "on-scroll-up": "hyprctl dispatch workspace e+1",
-  "on-scroll-down": "hyprctl dispatch workspace e-1"
+    "all-outputs": true,
+    "sort-by-number": true,
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1"
   },
   "custom/ram": {
     "format": "    {}",
@@ -20,6 +20,11 @@
     "interval": 5,
     "on-click": "alacritty -e btop",
     "exec": "free -h | awk '/Mem:/ {print $3 \"/\" $2}'"
+
+  },
+  "custom/spell-check": {
+    "format": "󰓆 ",
+    "tooltip": false,
   },
 
   "clock": {
@@ -30,7 +35,7 @@
   "pulseaudio": {
     "format": "{volume}% ",
     "format-muted": "Muted ",
-    "scroll-step": 5,
+    "scroll-step": 1,
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
     "on-click-right": "pavucontrol",
     "tooltip": false
@@ -65,9 +70,17 @@
 
   
   "battery": {
-    "format": "{capacity}% ",
-    "format-charging": "{capacity}% "
+    "states": {
+        "warning": 30,
+        "critical": 10
+    },
+    "format": "{icon}   {capacity}%",
+    "format-charging":  "{capacity}% ",
+    "format-critical":  "⚠️ {capacity}%",
+    "format-icons": ["", "", "", "", ""]
   },
+
+
   "cpu": {
     "format": "   {usage}%",
     "interval": 5

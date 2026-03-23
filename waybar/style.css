@@ -66,6 +66,30 @@ window#waybar {
 #battery.charging {
   border: 1px solid rgba(150, 220, 150, 0.8);
 }
+#battery.critical {
+    background-color: #f38ba8; /* Röd färg */
+    color: #1e1e2e;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #ff0000;
+    }
+}
+@keyframes pulse-charging {
+    from {
+        background-color: rgba(166, 227, 161, 0.4); /* Mjuk grön */
+    }
+    to {
+        background-color: rgba(166, 227, 161, 0.8); /* Starkare grön */
+    }
+}
 
 /* Bluetooth av = grå */
 #custom-bluetooth.off {
