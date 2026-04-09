@@ -1,0 +1,121 @@
+{
+  "position": "top",
+  "margin-top": 5,
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "custom/spell-check",
+    "pulseaudio",
+    "network",
+    "custom/bluetooth",
+    "battery",
+    "custom/ram",
+    "cpu"
+  ],
+  "clock": {
+    "interval": 60,
+    "tooltip": true,
+    "format": "{:%H.%M}",
+    "tooltip-format": "{:%Y-%m-%d}"
+  },
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "activate",
+    "sort-by-number": true
+  },
+  //"custom/spell-check": {
+  // "format": "󰓆 ",
+  //"tooltip": false
+  //},
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-muted": " ",
+    "tooltip-format": "{volume}%",
+    "format-icons": {
+      "default": [
+        "󰕿 ", // Mycket lågt (0-14%)
+        "󰖀 ", // Lågt (15-28%)
+        "󰖀 ", // Mellan-lågt (29-42%)
+        "󰕾 ", // Mellan (43-57%)
+        "󰕾 ", // Mellan-högt (58-71%)
+        "󰕾 ", // Högt (72-85%)
+        " " // Max (86-100%)
+      ]
+    },
+    "scroll-step": 1,
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "tooltip": false
+  },
+  "network": {
+    "format-wifi": " ",
+    "format-ethernet": "{ipaddr}/{cidr} 󰊗",
+    "format-disconnected": "", //An empty format will hide the module.
+    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50,
+    "on-click": "alacritty -e bash -ic 'nmtui'"
+  },
+  "custom/bluetooth": {
+    "exec": "~/.config/waybar/scripts/bluetooth_status.sh",
+    "return-type": "json",
+    "interval": 5,
+    "on-click": "blueman-manager",
+    "on-click-right": "rfkill toggle bluetooth",
+    "tooltip": true
+  },
+  "battery": {
+    "interval": 60,
+    "format": "{icon}",
+    "states": {
+      "warning": 10
+    },
+    "tooltip-format": "{capacity}% kvar ({timeTo})",
+    "tooltip-format-charging": "{capacity}% laddat ({timeTo})",
+    "tooltip-format-plugged": "{capacity}% [Ansluten]",
+    "format-icons": {
+      "default": [
+        "󰂎",
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+      ],
+      "charging": [
+        "󰢟",
+        "󰢜",
+        "󰂆",
+        "󰂇",
+        "󰂈",
+        "󰢝",
+        "󰂉",
+        "󰢞",
+        "󰂊",
+        "󰂋",
+        "󰂅"
+      ]
+    }
+  },
+  "custom/ram": {
+    "format": " {}",
+    "tooltip": false,
+    "interval": 5,
+    "on-click": "alacritty -e btop",
+    "exec": "free -h | awk '/Mem:/ {print $3}'"
+  },
+  "cpu": {
+    "format": " {usage}%",
+    "interval": 1
+  }
+}
